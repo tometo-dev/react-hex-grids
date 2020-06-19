@@ -1,7 +1,6 @@
 {
   "name": "react-hex-grids",
   "version": "0.1.0",
-  "private": true,
   "author": "Sudhanshu Ranjan",
   "license": "MIT",
   "main": "dist/index.js",
@@ -162,5 +161,18 @@
     "presets": [
       "react-app"
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsuki42/react-hex-grids"
+  },
+  "bugs": {
+    "url": "https://github.com/tsuki42/react-hex-grids/issues"
+  },
+  "homepage": "https://github.com/tsuki42/react-hex-grids#readme",
+  "keywords": [
+    "react",
+    "react-hex-grids",
+    "react-grid-layout"
+  ]
 }
