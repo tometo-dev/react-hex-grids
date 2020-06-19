@@ -1,6 +1,6 @@
 import React from "react"
 
-import HexGrids from "./components/hex-grids"
+import HexGrids from "./hex-grids"
 
 function App() {
   return (
