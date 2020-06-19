@@ -23,6 +23,16 @@ import HexGrids, { HexGridItem, HexGridList } from "react-hex-grids"
 
 See [examples](/example/src/App.js)
 
+---
+
+Also available on [bit.dev](https://bit.dev/tsuki/react-hex-grids/hex-grids)
+
+```
+bit import tsuki.react-hex-grids/hex-grids
+```
+
+Learn more [here](https://docs.bit.dev/docs/workspace#initializing-workspace).
+
 #### Contributing
 
 PRs are always welcome 😃
