@@ -1,6 +1,13 @@
 import React from "react"
+
+import HexGrids from "./components/hex-grids"
+
 function App() {
-  return <div>Hello World!!</div>
+  return (
+    <>
+      <HexGrids />
+    </>
+  )
 }
 
 export default App
