@@ -1,24 +1,27 @@
 import React from "react"
 import "./styles.scss"
 
-const GridList: React.FC = ({ children }) => (
+export const HexGridList: React.FC = ({ children }) => (
   <ul className="hex-grid__list">{children}</ul>
 )
 
-const GridItem: React.FC = ({ children }) => (
+export const HexGridItem: React.FC = ({ children }) => (
   <li className="hex-grid__item">
     <div className="hex-grid__content">{children}</div>
   </li>
 )
 
-const HexGrids: React.FC = () => {
-  const items = Array.from(new Array(60)).map((e, i) => i)
+interface HexGridsProps {
+  items: Array<any>
+}
+
+const HexGrids: React.FC<HexGridsProps> = ({ items }) => {
   return (
-    <GridList>
+    <HexGridList>
       {items.map((item, index) => (
-        <GridItem key={index}>{item}</GridItem>
+        <HexGridItem key={index}>{item}</HexGridItem>
       ))}
-    </GridList>
+    </HexGridList>
   )
 }
 

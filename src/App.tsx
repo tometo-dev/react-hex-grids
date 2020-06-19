@@ -5,7 +5,7 @@ import HexGrids from "./hex-grids"
 function App() {
   return (
     <>
-      <HexGrids />
+      <HexGrids items={[1, 2, 3, 4, 5]} />
     </>
   )
 }
